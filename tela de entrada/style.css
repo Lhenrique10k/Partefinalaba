@@ -1,0 +1,245 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* outra parte do css */
+body {
+  background-color: #eae7e7;
+}
+
+.titulo-portal{
+  font-size: 34px;  
+  color: #232e5b;
+  font-family: 'poppis', sans-serif;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Espaço entre o ícone e o texto */
+  }
+  
+  .avatar img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .welcome-text h4 {
+    margin: 0; /* Remover margens padrão do h4 */
+  }
+  
+  .ola{
+    display: flex;
+    align-items: center;
+    font-family: 'poppis', sans-serif;
+    color: #232e5b;
+  }
+
+  .titulo-portal {
+    text-align: center; /* Centraliza o texto */
+    font-size: 24px; /* Aumenta o tamanho da fonte */
+    margin-top: 16px; /* Adiciona espaço acima do título */
+  }
+  /*barra de pesquisa*/
+ 
+.search-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+.search-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.search-button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+
+ /*card*/
+ .container{ 
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    margin-left: 350px;
+    font-family: 'poppis', sans-serif;
+ }
+ .card {
+  background-color: #a20202; /* Vermelho */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 10px; /* Tamanho menor */
+  max-width: 200px; /* Tamanho menor */
+  text-align: center;
+  cursor: pointer;
+  color: white; /* Cor do texto */
+}
+.card :hover {
+  transform: scale(1.1); /* Aumenta em 10% ao passar o mouse */
+  transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.button {
+  background-color: #ffffff; /* Branco */
+  color: #a20202; /* Vermelho */
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.button i {
+  margin-left: 5px;
+}
+
+.card2 {
+  background-color: #c90a3a; /* Vermelho */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 10px; /* Tamanho menor */
+  max-width: 200px; /* Tamanho menor */
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  color: white;
+}
+.card2 :hover {
+  transform: scale(1.1); /* Aumenta em 10% ao passar o mouse */
+  transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.button {
+  background-color: #ffffff; /* Branco */
+  color: #a20202; /* Vermelho */
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.button i {
+  margin-left: 5px;
+}
+
+
+.card3 {
+  background-color: #a20202; /* Vermelho */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 10px; /* Tamanho menor */
+  max-width: 200px; /* Tamanho menor */
+  text-align: center;
+  cursor: pointer;
+  color: white;
+}
+.card3 :hover {
+  transform: scale(1.1); /* Aumenta em 10% ao passar o mouse */
+  transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.button {
+  background-color: #ffffff; /* Branco */
+  color: #a20202; /* Vermelho */
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.button i {
+  margin-left: 5px;
+}
+
+.card4 {
+  background-color: #c90a3a; /* Vermelho */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 10px; /* Tamanho menor */
+  max-width: 200px; /* Tamanho menor */
+  text-align: center;
+  cursor: pointer;
+  color: white;
+}
+.card4 :hover {
+  transform: scale(1.1); /* Aumenta em 10% ao passar o mouse */
+  transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+.button {
+  background-color: #ffffff; /* Branco */
+  color: #a20202; /* Vermelho */
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.button i {
+  margin-left: 5px;
+}
+
+.card5 {
+  background-color: #d1303b; /* Vermelho */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 10px; /* Tamanho menor */
+  max-width: 200px; /* Tamanho menor */
+  text-align: center;
+  cursor: pointer;
+  color: white;
+}
+.card5 :hover {
+  transform: scale(1.1); /* Aumenta em 10% ao passar o mouse */
+  transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+.button {
+  background-color: #ffffff; /* Branco */
+  color: #a20202; /* Vermelho */
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.button i {
+  margin-left: 5px;
+}
+
+
+h1 {
+font-family: 'poppis', sans-serif;
+
+
+}

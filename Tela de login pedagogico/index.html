@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>equipe-pedagogica</title>
+</head>
+<body>
+
+<div class="login">
+    <h1>Bem Vindo (a) Equipe-pedagogica!</h1>
+    <div class="acessar-pelo-email">
+      <a href="#" class="acessar-pelo-email-link">
+        Acessar pelo e-mail
+      </a>
+    </div>
+    <form id="loginForm" onsubmit="handleSubmit(event)">
+      <div class="form-group">
+        <label for="email">E-mail (Obrigatório):</label>
+        <input
+          type="email"
+          name="email"
+          required
+          class="form-control"
+          value=""
+          onchange="handleChange(event)"
+        />
+        <span class="text-danger"></span>
+      </div>
+      <div class="form-group">
+        <label for="password">Senha (Obrigatório):</label>
+        <input
+          type="password"
+          name="password"
+          required
+          class="form-control"
+          value=""
+          onchange="handleChange(event)"
+        />
+        <span class="text-danger"></span>
+      </div>
+      <button type="submit" class="btn btn-primary">
+        Acessar
+      </button>
+      <div class="lembrar-senha">
+        <span></span>
+      </div>
+      <button type="submit" class="btn btn-primary">
+        Lembrar senha
+      </button>
+      <script src="app.js"></script>
+    </body>

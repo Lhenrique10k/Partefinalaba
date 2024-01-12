@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "poppis", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('./img/Aba.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .login {
+    position: fixed;
+    bottom: 5%;
+    left: 0;
+    transform: translateX(10%);
+    background-color: #f2f2f2;
+    padding: 2rem;
+    color: #f8fafc;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: "poppis", sans-serif;
+  }
+  
+  .login h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: red;
+    font-family: "poppis", sans-serif;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+  }
+  
+  /* Alterando a cor do texto para preto */
+  .form-group label {
+    color: black;
+  }
+  
+  .btn-primary {
+    background-color: #f00;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login .lembrar-senha {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: "poppis", sans-serif;
+  }
+  
+  .login .lembrar-senha i {
+    font-size: 16px;
+    margin-right: 5px;
+  }
+  
+  .login .equipe-pedagogica {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .login .equipe-pedagogica a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .login {
+        width: 90%;
+        left: 5%;
+    }
+  }
+  
